@@ -251,7 +251,7 @@ function Yoga() {
             <img 
               src={poseImages[currentPose]}
               className="pose-img"
-              alt={`${currentPose} reference image`}
+              alt={`${currentPose} reference`}
             />
           </div>
          
