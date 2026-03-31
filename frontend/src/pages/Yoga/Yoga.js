@@ -248,10 +248,11 @@ function Yoga() {
           >
           </canvas>
         <div>
+            {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
             <img 
               src={poseImages[currentPose]}
               className="pose-img"
-              alt={`${currentPose} reference`}
+              alt={`${currentPose} pose`}
             />
           </div>
          
